@@ -1,0 +1,447 @@
+@font-face{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: white;
+  color: #333333;
+  font-style: normal;
+}
+
+.main-index-container{
+  flex-grow: 1;
+}
+
+.main-inner{
+  flex-grow: 1;
+}
+
+.navigation li{
+  text-align: center;
+}
+
+.navigation-link{
+  color: black;
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.welcome-images{
+  min-height: 485px;
+  text-align: center;
+  background-image: url("../images/background/divider\ \(1\).svg"), url("../images/background/index.jpg");
+  background-color: black;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, cover;
+  background-position: center bottom, center top;
+}
+
+.welcome-sedona{
+  padding: 51.4px;
+}
+
+.sedona-place, .invitation-header, .booking-title{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  font-style: normal;
+  text-transform: uppercase;
+  color: black;
+}
+
+.sedona-comparison, .invitation-description, .booking-description{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  font-style: normal;
+}
+
+.advantages-title, .experience-title{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  font-style: normal;
+  text-transform: uppercase;
+  color: black;
+}
+
+.advantages-description, .experience-item-description{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  font-style: normal;
+}
+
+.advantage-1, .advantage-5{
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+
+.advantage-1 .advantages-title, .advantage-5 .advantages-title{
+  color: white;
+}
+
+.advantage-2, .advantage-4{
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantage-3{
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.footer-contacts-phone{
+  text-decoration: none;
+  color: #000000;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.subscribe{
+  justify-content: center;
+  width: 1200px;
+  text-align: center;
+
+}
+
+.subscribe-main{
+  background-image: url("../images/background/Subscribe.jpg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.subscribe-title{
+  text-transform: uppercase;
+}
+
+.subscribe-title-catalog{
+  color: black;
+}
+
+.subscribe-description{
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 26px;
+}
+
+.catalog-intro{
+  background-image: url("../images/background/filter.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 0 auto;
+}
+
+.inner-title{
+  font-family: "PT Sans", sans-serif;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs-item-link{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: white;
+}
+
+.catalog-filters-title, .price-filter-title{
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.catalog-filters-checkbox-title, .catalog-filters-radio-title{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.select-control-title{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.product-card-link{
+  text-transform: capitalize;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  color: black;
+}
+
+.experience-living, .experience-souvenirs{
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.button{
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.navigation-link-button{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  background-color: #756157;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  padding: 8px 34px;
+}
+
+.pagination-link{
+  text-decoration: none;
+  color: white;
+}
+
+.pagination-link-current{
+  color: black;
+}
+
+.select-control option{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.page-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-height: 100vh;
+  width: 1200px;
+}
+
+.navigation{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-user{
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  width: 268px;
+  margin-right: 0 70px;
+  list-style: none;
+}
+
+.navigation-logo{
+  margin-left: 70px;
+  margin-right: 28px;
+}
+
+.navigation-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-footer-container{
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.experience-list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-item{
+  height: 230px;
+  width: 230px;
+  padding: 81px 85px;
+}
+
+.advantages-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.advantage-1, .advantage-5{
+  display: flex;
+  min-height: 385px;
+  width: 100%;
+}
+
+.advantage-img-container{
+  display: block;
+  flex: 1;
+
+}
+
+.advantage-text-container{
+  flex: 1;
+  width: 230px;
+  padding: 103px 85px;
+}
+
+.advantages-img{
+  display: block;
+  object-fit: cover;
+  height: 100%;
+}
+
+.advantage-2, .advantage-3, .advantage-4{
+  width: 230px;
+  height: 160px;
+  padding: 112.5px 85px;
+}
+
+.catalog-filters-group, .price-filter{
+  border: none;
+  min-width: 150.43px;
+}
+
+.catalog-filters-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.catalog-filters-container{
+  display: flex;
+  margin: 0 70px;
+}
+
+.infrastructure-container, .living-type-container{
+  margin-right: 70px;
+}
+
+.filters-price-container{
+  width: 288px;
+  margin-right: 70px;
+}
+
+.product-list-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1060px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.product-list-item{
+  width: 340px;
+  text-align: center;
+  list-style: none;
+  border: 1px solid #E5E5E5;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.product-section{
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.sorting-container{
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.pagination{
+  list-style: none;
+}
+
+.pagination-container{
+  display: flex;
+}
+
+.pagination-item{
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  background-color: #82B3D3;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.pagination-separator{
+  width: 60px;
+}
+
+.pagination-item:nth-child(1){
+  background-color: #F2F2F2;
+}
+
+.booking-button{
+  display: block;
+  margin: 0 auto;
+}
+
+.catalog-intro{
+  padding: 0 70px;
+}
+
+ul, ol{
+  padding: 0;
+  margin: 0;
+}
