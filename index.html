@@ -188,9 +188,9 @@
       </div>
     </footer>
     </div>
-    <div class="modal-container modal-closed">
+    <div class="modal-container  modal-closed">
       <div class="modal modal-sedona-hotel-search">
-        <button class="modal-close-button">
+        <button class="modal-close-button" type="button">
           <span class="visually-hidden">Закрыть</span>
         </button>
         <section class="modal-content">
@@ -198,12 +198,12 @@
           <form action="" method="post">
             <p class="modal-date-form">
               <label class="modal-input-title" for="coming-date">Дата Заезда:</label>
-              <input class="modal-date-input" type="text" value="27 апреля 2020" id="coming-date">
+              <input class="modal-date-input" type="text" value="27 апреля 2020" id="coming-date" required placeholder="Укажите дату">
               <span class="modal-date-info modal-incorrect-value">Мы не можем отправить вас в прошлое.</span>
             </p>
             <p class="modal-date-form">
               <label class="modal-input-title" for="leaving-date">Дата Выезда:</label>
-              <input class="modal-date-input" type="text" value="1 сентября 2023" id="leaving-date">
+              <input class="modal-date-input" type="text" value="1 сентября 2023" id="leaving-date" required placeholder="Укажите дату">
               <span class="modal-date-info modal-correct-value">На эти даты есть свободные номера. Пока есть.</span>
             </p>
             <div class="modal-info-container">
@@ -211,7 +211,7 @@
                 <label class="modal-input-title" for="modal-adults">Взрослые:</label>
                 <div class="modal-number-input-container">
                   <button class="modal-number-button modal-button-minus" type="button"></button>
-                  <input class="modal-number-input" id="modal-adults" type="number" min="1" max="9" value="1" step="1">
+                  <input class="modal-number-input" id="modal-adults" type="number" min="1" max="9" value="2" step="1">
                   <button class="modal-number-button modal-button-plus" type="button"></button>
                 </div>
               </p>
@@ -230,7 +230,7 @@
                 </span>
                 <div class="modal-number-input-container">
                   <button class="modal-number-button modal-button-minus" type="button"></button>
-                  <input class="modal-number-input number-input-kids" id="modal-kids" type="number" min="1" max="9" value="1" step="1">
+                  <input class="modal-number-input number-input-kids" id="modal-kids" type="number" min="0" max="9" value="2" step="1">
                   <button class="modal-number-button modal-button-plus" type="button"></button>
                 </div>
               </p>

@@ -487,8 +487,9 @@ body{
   left: 0;
 }
 
-.catalog-filters-item:focus .checkbox-custom{
-  outline: 3px solid #83B3D3;
+.catalog-filters-checkbox:focus + .checkbox-custom,
+.catalog-filters-checkbox:focus-visible + .checkbox-custom {
+    outline: 3px solid #83B3D3;
 }
 
 .catalog-filters-radio[type="radio"]:checked + .radio-custom::before{
@@ -503,8 +504,9 @@ body{
   border-radius: 100%;
 }
 
-.catalog-filters-item:focus .radio-custom{
-  outline: 3px solid #83B3D3;
+.catalog-filters-radio:focus + .radio-custom,
+.catalog-filters-radio:focus-visible + .radio-custom {
+    outline: 3px solid #83B3D3;
 }
 
 .select-control-title{
@@ -1057,7 +1059,7 @@ ul, ol{
 .price-filter-input{
   width: 143px;
   height: 48px;
-  padding: 12px 20px;
+  padding: 12px 50px 12px 20px;
   font-weight: 700;
   font-size: 18px;
   box-sizing: border-box;
