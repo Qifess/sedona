@@ -1462,6 +1462,7 @@ input[type="number"]{
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  height: 48px;
 }
 
 .modal-kids-label{
@@ -1484,6 +1485,7 @@ input[type="number"]{
   margin: 0;
   padding: 0;
   cursor: pointer;
+  background-color: #f2f2f2;
 }
 
 .modal-button-minus{
