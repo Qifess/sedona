@@ -1416,7 +1416,7 @@ input[type="number"]{
   line-height: 24px;
   font-weight: 700;
   font-size: 18px;
-  background: url("/images/icons/modal-calendar.svg") no-repeat center right 22px #f2f2f2;
+  background: url("../images/icons/modal-calendar.svg") no-repeat center right 22px #f2f2f2;
 }
 
 .modal-date-input:hover{
