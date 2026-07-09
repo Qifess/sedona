@@ -547,19 +547,19 @@ body{
 }
 
 .experience-living{
-  background-image: url("/images/icons/living.svg");
+  background-image: url("../images/icons/living.svg");
   background-repeat: no-repeat;
   background-position: 50% 81px;
 }
 
 .experience-food{
-  background-image: url("/images/icons/food.svg");
+  background-image: url("../images/icons/food.svg");
   background-repeat: no-repeat;
   background-position: 50% 82px;
 }
 
 .experience-souvenirs{
-  background-image: url("/images/icons/souvenirs.svg");
+  background-image: url("../images/icons/souvenirs.svg");
   background-repeat: no-repeat;
   background-position: 50% 79px;
 }
@@ -746,7 +746,6 @@ body{
   height: 223px;
   width: 230px;
   padding: 81px 85px;
-  box-sizing: border-boxS;
 }
 
 .advantages-list{
@@ -1260,35 +1259,35 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .rating-stars.four-stars{
-  background-image: url("/images/icons/star.svg"), url("/images/icons/star.svg"), url("/images/icons/star.svg"), url("/images/icons/star.svg");
+  background-image: url("../images/icons/star.svg"), url("../images/icons/star.svg"), url("../images/icons/star.svg"), url("../images/icons/star.svg");
   background-repeat: no-repeat;
   background-position-x: 0, 23px, 46px, 69px;
   background-position-y: center;
 }
 
 .rating-stars.three-stars{
-  background-image: url("/images/icons/star.svg"), url("/images/icons/star.svg"), url("/images/icons/star.svg");
+  background-image: url("../images/icons/star.svg"), url("../images/icons/star.svg"), url("../images/icons/star.svg");
   background-repeat: no-repeat;
   background-position-x: 0, 23px, 46px;
   background-position-y: center;
 }
 
 .rating-stars.two-stars{
-  background-image: url("/images/icons/star.svg"), url("/images/icons/star.svg");
+  background-image: url("../images/icons/star.svg"), url("../images/icons/star.svg");
   background-repeat: no-repeat;
   background-position-x: 0, 23px;
   background-position-y: center;
 }
 
 .rating-stars.one-stars{
-  background-image: url("/images/icons/star.svg");
+  background-image: url("../images/icons/star.svg");
   background-repeat: no-repeat;
   background-position-x: 0;
   background-position-y: center;
 }
 
 .rating-stars.five-stars{
-  background-image: url("/images/icons/star.svg"), url("/images/icons/star.svg"), url("/images/icons/star.svg"), url("/images/icons/star.svg"), url("/images/icons/star.svg");
+  background-image: url("../images/icons/star.svg"), url("../images/icons/star.svg"), url("../images/icons/star.svg"), url("../images/icons/star.svg"), url("../images/icons/star.svg");
   background-repeat: no-repeat;
   background-position-x: 0, 23px, 46px, 69px, 92px;
   background-position-y: center;
