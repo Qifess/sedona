@@ -67,9 +67,8 @@ body{
   font-family: inherit;
   font-size: 10px;
   line-height: 10px;
-  font-weight: 400px;
+  font-weight: 400;
   position: absolute;
-  transform: scale(20px);
   border-radius: 50%;
   background-color: #7DB54F;
   color: white;
@@ -79,6 +78,7 @@ body{
   box-sizing: border-box;
   left: 50%;
   bottom: 50%;
+  transform: translate(-10%, -10%);
 }
 
 .button{
@@ -1146,13 +1146,13 @@ ul, ol{
   right: 0;
 }
 
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
-}
-
-input[type="number"]{
-    -moz-appearance: textfield;
 }
 
 .card-sorting{
@@ -1396,7 +1396,7 @@ input[type="number"]{
   left: 157px;
   font-family: inherit;
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 21px;
 }
 
