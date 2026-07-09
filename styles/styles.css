@@ -1040,6 +1040,9 @@ ul, ol{
   margin-left: 10px;
   width: 8px;
   height: 23px;
+  top: 0;
+  left: 0;
+  transform: translateX(150%);
 }
 
 .breadcrumbs-item:not(:last-child){
