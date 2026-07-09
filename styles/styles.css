@@ -663,7 +663,7 @@ body{
   font-size: 18px;
   line-height: 21px;
   appearance: none;
-  background: url("/images/icons/select-arrow.svg") no-repeat right 20px center;
+  background: url("../images/icons/select-arrow.svg") no-repeat right 20px center;
 }
 
 .select-control:hover{
@@ -1036,7 +1036,7 @@ ul, ol{
 
 .breadcrumbs-item:not(:last-child)::after{
   position: absolute;
-  content: url(/images/icons/breadcrumbs-arrow.svg);
+  content: url(../images/icons/breadcrumbs-arrow.svg);
   margin-left: 10px;
   width: 8px;
   height: 23px;
